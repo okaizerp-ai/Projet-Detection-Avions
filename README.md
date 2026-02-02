@@ -22,3 +22,10 @@ le dossier contient :
 - le dossier dataset avec les annotations et les images étant trop lourd , ils ne seront pas pris en compte
 - Quant au modèle pth, il ne sera pas pris en compte également. 
 
+
+## Fonctionnement 
+
+Pour un bon fonctionnement du projet , il est crucial d'avoir : 
+
+- un dossier data contenant annotations, images et images_eval
+- un dossier model contenant le modèle pth utilisé ou plusieurs modèles pour varier d'un modèle à un autre

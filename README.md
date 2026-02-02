@@ -11,7 +11,7 @@ le dossier contient :
  - un fichier model.py  (Définition de l'architecture Faster R-CNN)
  - un fichier predictions.json (Fichier pour la validation du modèle)
  - un fichier train_v1.py (Script d'entraînement avec gestion de checkpoints)
- - un fichier train_v2.py  (Script d'entraînement avec gestion de checkpoints)
+ - un fichier train_v2.py  (Script d'entraînement supplémentaire au premier entraitement V1)
 
 
 ## Informations 

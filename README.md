@@ -1,9 +1,7 @@
 PROJET\_DETECTION\_AVIONS/
 ├── config.py              # Configuration centralisée (chemins, hyperparamètres, device)
-├── train\_V1.py            # Script d'entraînement avec gestion de checkpoints
-
-├── train\_V2.py            # Script d'entraînement avec gestion de checkpoints
-
+├── train_V1.py            # Script d'entraînement avec gestion de checkpoints
+├── train_V2.py            # Script d'entraînement avec gestion de checkpoints
 ├── predictions.json       # Fichier pour la validation du modèle
 ├── model.py               # Définition de l'architecture Faster R-CNN
 ├── dataset.py             # Classe PlaneDataset pour le chargement Images/XML (Pascal VOC)
@@ -22,4 +20,5 @@ PROJET\_DETECTION\_AVIONS/
 └── outputs/               # Résultats et exports
 ├── detections/        # Images traitées avec boîtes englobantes et labels
 └── stats/             # Graphiques (Boxplots, Matrice de Confusion)
+
 

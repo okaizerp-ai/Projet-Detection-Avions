@@ -19,15 +19,22 @@ le dossier contient :
 
 ## Informations 
 
-- le dossier dataset avec les annotations et les images étant trop lourd , ils ne seront pas pris en compte
-- Quant au modèle pth, il ne sera pas pris en compte également. 
+Pour des raisons de limitations de taille sur GitHub, certains fichiers essentiels ne sont pas inclus dans ce dépôt.
+Vous devez les ajouter manuellement pour que le projet fonctionne.
 
+1. Le Modèle (Poids)
+   
+- Créez un dossier nommé models/ à la racine.
 
-## Fonctionnement 
+- Placez-y votre fichier de poids entraîné (ex: faster_rcnn_avions_V2.pth).
 
-Pour un bon fonctionnement du projet , il est crucial d'avoir : 
+2. Le Dataset
 
-- un dossier data contenant annotations, images et images_eval
-- un dossier model contenant le modèle pth utilisé ou plusieurs modèles pour varier d'un modèle à un autre
+- Créez un dossier nommé data/ à la racine.
 
-Il est notamment important de vérifier que les chemins d'accès vers un dossier ou plusieurs soit correcte.
+- Ce dossier doit contenir les sous-dossiers : annotations/, images/ et images_eval/.
+
+## Important 
+
+Pour garantir le bon fonctionnement du programme,
+il est impératif de vérifier que les chemins d'accès vers vos dossiers de données (data) et de modèles (models) sont correctement configurés dans les fichiers du projet avant toute exécution.

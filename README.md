@@ -29,3 +29,5 @@ Pour un bon fonctionnement du projet , il est crucial d'avoir :
 
 - un dossier data contenant annotations, images et images_eval
 - un dossier model contenant le modèle pth utilisé ou plusieurs modèles pour varier d'un modèle à un autre
+
+Il est notamment important de vérifier que les chemins d'accès vers un dossier ou plusieurs soit correcte.

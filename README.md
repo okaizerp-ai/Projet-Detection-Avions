@@ -17,5 +17,5 @@ le dossier contient :
 ## Informations 
 
 - le dossier dataset avec les annotations et les images étant trop lourd , ils ne seront pas pris en compte
-- Quant au modèle pht, il ne sera pas pris en compte également. 
+- Quant au modèle pth, il ne sera pas pris en compte également. 
 

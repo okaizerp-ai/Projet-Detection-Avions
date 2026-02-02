@@ -12,8 +12,8 @@ le dossier contient :
  - un fichier predictions.json (Fichier pour la validation du modèle)
  - un fichier train_v1.py (Script d'entraînement avec gestion de checkpoints)
  - un fichier train_v2.py  (Script d'entraînement supplémentaire au premier entraitement V1)
- - un fichier confusion.py       	   # création de la matrice de confusion
- - un fichier generate_json.py       # générer le fichier json
+ - un fichier confusion.py   (création de la matrice de confusion)
+ - un fichier generate_json.py  (générer le fichier json)
 
 
 

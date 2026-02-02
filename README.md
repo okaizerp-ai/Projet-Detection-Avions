@@ -7,7 +7,7 @@ le dossier contient :
  - un fichier app.py (Interface graphique utilisateur (GUI))
  - un fichier config.py (Configuration centralisée (chemins, hyperparamètres, device))
  - un fichier dataset.py (Classe Dataset pour le chargement Images/XML (Pascal VOC))
- - un fichier detection.py 
+ - un fichier detection.py ( création bounding boxes et de la classification A1 .... A20)
  - un fichier model.py  (Définition de l'architecture Faster R-CNN)
  - un fichier predictions.json (Fichier pour la validation du modèle)
  - un fichier train_v1.py (Script d'entraînement avec gestion de checkpoints)
